@@ -6,18 +6,23 @@ h1{
 }
 
 h3{
-  text-align: right;
+  text-align: left;
   font-family: 'Slabo 30 px', serif;
   color: #202020;
 
 }
 
+h4{
+  text-align: center;
+ font-family: 'Oxygen', sans-serif;; 
+   color: #FFFFFF 
+  
+  
+}
+
 body {
     background-color: #4DDBB8;
-}
-  
-  
-  
+   
 }
 
 img{ 
