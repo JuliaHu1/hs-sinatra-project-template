@@ -1,3 +1,4 @@
+require_relative 'models/model.rb'
 require 'bundler'
 Bundler.require
 
