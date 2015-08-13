@@ -12,5 +12,10 @@ class ApplicationController < Sinatra::Base
   get '/first_question' do
     erb :first_question
   end
+  
+  get '/second_question' do
+    erb :second_question
+  end
+  
 end
 
