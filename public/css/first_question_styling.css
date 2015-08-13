@@ -1,27 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
 h1{
-  text-align: center;
-  font-family: 'Slabo 50px', serif; 
-  color: #3366FF; 
+  text-align: center; 
+  font-family: 'Slabo 27px', serif;
+  color: #3366FF
   
 }
 
 h3{
-  text-align: left;
-  font-family: 'Slabo 30 px', serif;
+  text-align: center;
+  font-family: 'Slabo 27 px', serif;
   color: #202020;
 
 }
 
 h4{
-  text-align: center;
- font-family: 'Oxygen', sans-serif;; 
-   color: #FFFFFF 
+  text-align: center
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #202020;
   
   
 }
 
 body {
-    background-color: #4DDBB8;
+    background-color: #FFFFFF;
    
 }
 
