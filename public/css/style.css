@@ -1,24 +1,86 @@
-@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
-h1{
-  text-align: center; 
-  font-family: 'Slabo 27px', serif;
-  color: #3366FF
-  
-}
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700);
 
 body {
-        margin-top:     50px;
-        margin-left:    50px;
-  background-color: #CCFF66;
+  text-align: center;
+  font-family: 'Lora', serif;  
+  font-size: 17px;
+  padding-top: 5%;
+    background-color: #D6FFEF
+}
+
+body h1{
+  font-size: 60px;
+  margin: 15px 0 5px 0;
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: #66A3FF
+
+}
+  
+  
+}
+body h2 {
+    font-size: 30px;
+    margin: 15px 0 5px 0;
+    font-weight: normal;
+    padding-bottom: 5px
+}
+
+body h3 {
+    font-size: 24px;
+    margin: 15px 0 5px 0;
+    font-weight: normal
+}
+
+body h4 {
+    font-size: 17px;
+    margin: 15px 0 5px 0;
+    font-weight: normal
+}
+
+body p {
+    text-align: left
 }
 
 
 a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-align: center;
-    text-decoration: none;
-    color: initial;
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: 'Lora', serif; 
+  color: #ffffff;
+  font-size: 45px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
+a.button:hover {
+  background: #b8e4ff;
+  background-image: -webkit-linear-gradient(top, #b8e4ff, #70add6);
+  background-image: -moz-linear-gradient(top, #b8e4ff, #70add6);
+  background-image: -ms-linear-gradient(top, #b8e4ff, #70add6);
+  background-image: -o-linear-gradient(top, #b8e4ff, #70add6);
+  background-image: linear-gradient(to bottom, #b8e4ff, #70add6);
+  text-decoration: none;
+}
+
+
+
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
