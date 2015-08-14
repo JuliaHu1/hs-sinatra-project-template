@@ -1,0 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine:400,700);
+
+html{
+  background-color: #00FF00;
+}
+
+h1{
+  font-family: 'Tangerine', cursive;
+  color: #6600FF;
+}
