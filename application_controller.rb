@@ -29,6 +29,10 @@ class ApplicationController < Sinatra::Base
     erb :fifth_question
   end
   
+  get '/you_did_it' do
+    erb :fifth_question
+  end
+  
   post '/first_question' do
     if params[:pres] == "obama"
     erb :second_question
