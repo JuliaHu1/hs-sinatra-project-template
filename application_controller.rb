@@ -16,7 +16,6 @@ class ApplicationController < Sinatra::Base
   get '/second_question' do
     erb :second_question
   end
-  
 end
 
 
