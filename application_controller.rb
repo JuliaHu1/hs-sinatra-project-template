@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     erb :third_question
   end
   
-  get 'fourth_question' do
+  get '/fourth_question' do
     erb :fourth_question
   end
   
@@ -29,4 +29,5 @@ class ApplicationController < Sinatra::Base
     erb :fifth_question
   end
 
+  if params[]
 end
