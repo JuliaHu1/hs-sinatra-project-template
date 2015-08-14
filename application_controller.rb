@@ -36,4 +36,28 @@ class ApplicationController < Sinatra::Base
       erb :wrong_answer1
      end
   end
+
+  post '/second_question' do
+    if params[:bike] == "france"
+      erb :third_question
+  else
+      erb :wrong_answer2
+     end
+  end
+
+  post '/third_question' do
+   if params[:matter] == "universe"
+     erb :fourth_question
+  else
+      erb :wrong_answer3
+     end
+  end
+  
+   post '/fourth_question' do
+     if params[:debate] == "trump"
+       erb :fifth_question
+  else
+      erb :wrong_answer4
+     end
+  end
 end
