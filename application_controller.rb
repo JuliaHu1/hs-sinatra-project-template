@@ -60,4 +60,12 @@ class ApplicationController < Sinatra::Base
       erb :wrong_answer4
      end
   end
+  
+   post '/fifth_question' do
+     if params[:food] == "mcdonalds"
+       erb :you_did_it
+  else
+      erb :wrong_answer5
+     end
+  end
 end
