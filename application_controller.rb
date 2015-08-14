@@ -30,7 +30,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/you_did_it' do
-    erb :fifth_question
+    erb :you_did_it
   end
   
   post '/first_question' do
