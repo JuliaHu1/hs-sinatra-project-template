@@ -28,6 +28,7 @@ class ApplicationController < Sinatra::Base
   get '/fifth_question' do
     erb :fifth_question
   end
-
-  if params[]
+  
+  if params[:value]=obama
+    redirect "http://www.theonion.com/article/poll-89-americans-believe-obama-has-failed-bring-a-51061" 
 end
